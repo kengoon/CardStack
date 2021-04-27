@@ -4,7 +4,7 @@ from kivymd_extensions.CardStack import CardStack
 from kivy.clock import Clock
 from kivy.uix.button import Button
 
-class Mainapp(MDApp):
+class MainApp(MDApp):
     def build(self):
         self.test = CardStack.CardStack()
         self.test.pos_hint = {'center_x':.5, "center_y":.5}
