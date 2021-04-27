@@ -1,6 +1,6 @@
 from kivy.lang import Builder
 from kivymd.app import MDApp
-import CardStack
+from kivymd_extensions.CardStack import CardStack
 from kivy.clock import Clock
 from kivy.uix.button import Button
 
