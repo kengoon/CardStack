@@ -3,7 +3,7 @@ import re
 
 from setuptools import find_packages, setup
 
-extension_name = "example_extension"
+extension_name = "CardStack"
 package_name = "kivymd_extensions." + extension_name
 
 
@@ -28,7 +28,7 @@ if __name__ == "__main__":
     # Static strings are in setup.cfg
     setup(
         name=package_name,
-        description="Example extension that adds beautiful button",
+        description="Example extension that adds beautiful CardStack",
         version=get_version(),
         packages=(
             ["kivymd_extensions"]
